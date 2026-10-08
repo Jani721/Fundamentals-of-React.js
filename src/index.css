@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3efe8;
+  color: #292524;
+}
+
+/* NAVBAR */
+
+nav {
+  background: #292524;
+  color: #f5f5f4;
+  padding: 22px 45px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+nav h2 {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  color: #f5d0c5;
+}
+
+nav a {
+  color: #e7e5e4;
+  text-decoration: none;
+  margin-left: 28px;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #e07a5f;
+}
+
+/* MAIN */
+
+main {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+main > div {
+  background: #fffdf9;
+  padding: 40px;
+  border-radius: 16px;
+
+  box-shadow: 0 8px 30px rgba(41, 37, 36, 0.1);
+}
+
+/* HEADINGS */
+
+h1 {
+  color: #292524;
+  font-size: 32px;
+  margin-top: 0;
+}
+
+h2 {
+  color: #9f4f3c;
+}
+
+/* TEXT */
+
+p {
+  line-height: 1.7;
+  color: #57534e;
+}
+
+/* FORM */
+
+form {
+  max-width: 550px;
+}
+
+form div {
+  margin-bottom: 18px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #44403c;
+}
+
+input {
+  width: 100%;
+  padding: 12px 14px;
+
+  border: 1px solid #d6d3d1;
+  border-radius: 8px;
+
+  background: #fafaf9;
+  color: #292524;
+
+  font-size: 16px;
+  outline: none;
+
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+input:focus {
+  border-color: #c65d45;
+  box-shadow: 0 0 0 3px rgba(198, 93, 69, 0.15);
+}
+
+/* BUTTON */
+
+button {
+  background: #c65d45;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  padding: 12px 22px;
+
+  font-size: 15px;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background: #a94b37;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* LINKS */
+
+a {
+  color: #9f4f3c;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #713528;
+}
+
+/* CONTACT LIST */
+
+hr {
+  border: none;
+  border-top: 1px solid #e7e5e4;
+  margin: 22px 0;
+}
+
+button {
+  margin-right: 12px;
+}
